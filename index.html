@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>Puja's Weather App</h2>
+        </div>
+        <div class="maincontainer">
+            <div class="sidecontainer">
+                <div class="tableContainer">
+                    <button type="submit" class="btn" id="getweather-btn">Get Weather</button>
+                 <div class="tabledata">
+                   <table>
+                    <tr>
+                        <th>City</th>
+                    </tr>
+
+                    <tr>
+                        <td>London</td>
+                    </tr>
+                    <tr>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Los Angeles</td>
+                    </tr>
+                    <tr>
+                        <td>Las Vegas</td>
+                    </tr>
+
+                   </table>
+                 </div>
+              </div>
+            </div>
+            <div class="rightContainer">
+                <div class="leftButton">
+                    <input type="text" placeholder="City Name" id="searchInput">
+                    <button type="submit" class="btn" id="searchbtn">Search</button>
+                </div>
+                <div class="weatherContainer">
+                    <table id="table2">
+                        <tr>
+                            <th>City</th>
+                            <th> Description</th>
+                            <th>Temperature(0C)</th>
+                            <th>Pressure(hPa)</th>
+                            <th>Data Age (hr)</th>
+                            <th></th>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    margin:auto;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+}
+.heading{
+    width:100%;
+    height:30px ;
+    align-items: center;
+    background-color:#4472C4;
+    text-align: center;
+    color:#ffffff;
+}
+.maincontainer{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.maincontainer .sidecontainer{
+    width:20%;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: 3px solid black;
+    height: 90vh;
+    margin:20px;
+    display: block;
+    padding:20px;
+}
+.maincontainer .rightContainer{
+    margin:20px;
+    padding:20px;
+    width:80%;
+    align-items: center;
+    background-color: aqua;
+    border: 3px solid black;
+    height: 90vh;
+}
+.maincontainer .sidecontainer.tableContainer{
+    padding-left:20px ;
+    display: block;
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
+}
+.tabledata{
+    justify-content: center;
+    align-items: center;
+}
+table,th,td{
+    border:1px solid black;
+}
+.btn{
+    background-color:#4472C4;
+    width:100px;
+    height:20px;
+
+    color:white;
+}
+.leftButton{
+    float: right;
+    margin:20px;
+}
+.weatherContainer{
+    margin-top:60px;
+    width:100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
